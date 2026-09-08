@@ -2,26 +2,26 @@ from random import randint
 from time import sleep
 
 diceOutcomes = {
-    (1, 2, 3): 'Bizzy Bimbos XXX',
-    (1, 2, 4): 'Bizzy Bimbos XXX',
-    (1, 2, 5): 'Bizzy Bimbos XXX',
-    (1, 2, 6): 'Bizzy Bimbos XXX',
-    (1, 3, 4): 'Bizzy Bimbos XXX',
-    (1, 3, 5): 'Bizzy Bimbos XXX',
+    (1, 2, 3): 'World B Freed',
+    (1, 2, 4): 'World B Freed',
+    (1, 2, 5): 'World B Freed',
+    (1, 2, 6): 'World B Freed',
+    (1, 3, 4): 'World B Freed',
+    (1, 3, 5): 'World B Freed',
     (1, 3, 6): 'New York Sbarros',
     (1, 4, 5): 'New York Sbarros',
     (1, 4, 6): 'New York Sbarros',
     (1, 5, 6): 'New York Sbarros',
-    (2, 3, 4): 'Barrett\'s Bad Boys (To Stay off the Reed if not #1)',
-    (2, 3, 5): 'Barrett\'s Bad Boys (To Stay off the Reed if not #1)',
-    (2, 3, 6): 'Barrett\'s Bad Boys (To Stay off the Reed if not #1)',
-    (2, 4, 5): 'Barrett\'s Bad Boys (To Stay off the Reed if not #1)',
-    (2, 4, 6): 'A Washington Basketball Team',
-    (2, 5, 6): 'A Washington Basketball Team',
-    (3, 4, 5): 'A Washington Basketball Team',
-    (3, 4, 6): 'Stay Off The Reed',
-    (3, 5, 6): 'Stay Off The Reed',
-    (4, 5, 6): 'Bizzy Bimbos XXX (Via North By Northwestbrook)',
+    (2, 3, 4): 'A Washington Basketball Team',
+    (2, 3, 5): 'A Washington Basketball Team',
+    (2, 3, 6): 'A Washington Basketball Team',
+    (2, 4, 5): 'A Washington Basketball Team',
+    (2, 4, 6): 'Sweat Kennel U (Goes To Jack if 5th or 6th)',
+    (2, 5, 6): 'Sweat Kennel U (Goes To Jack if 5th or 6th)',
+    (3, 4, 5): 'Sweat Kennel U (Goes To Jack if 5th or 6th)',
+    (3, 4, 6): 'Linsanity 2.0',
+    (3, 5, 6): 'Linsanity 2.0',
+    (4, 5, 6): 'Bizzy Bimbos XXX',
 }
 
 
@@ -31,12 +31,12 @@ draft = ['',
          '',
          '',
          '',
-         'Heat Culture',
-         'Stay Off The Reed (via Sweat Kennel U.)',
-         'A Washington Basketball Team (Via Linsanity 2.0)',
-         'nuqDaq ‘oH tach’e',
-         'World B. Freed',
-         'Leaping Luka\'s **']
+         'Leaping Luka\'s',
+         'Stay Off The Reed',
+         'A Bug\'s Life',
+         'Swaet Kennel U (From nuqDaq ‘oH tach’e)',
+         'A Washington Basketball team (From Barrett\'s Bad Boys)',
+         'Heat Culture']
 
 
 def getDice():
@@ -69,6 +69,7 @@ def ordinal(n):
 
 print("The Lottery is starting!")
 input("Are you ready to begin?")
+input("Congrats to our defending champion, Heat Culture")
 print("ping pong balls bouncing....")
 sleep(15)
 
