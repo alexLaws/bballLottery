@@ -34,8 +34,8 @@ draft = ['',
          'Leaping Luka\'s',
          'Stay Off The Reed',
          'A Bug\'s Life',
-         'Swaet Kennel U (From nuqDaq ‘oH tach’e)',
-         'A Washington Basketball team (From Barrett\'s Bad Boys)',
+         'Sweat Kennel U (From nuqDaq ‘oH tach’e)',
+         'Stay Off The Reed (From Barrett\'s Bad Boys)',
          'Heat Culture']
 
 
